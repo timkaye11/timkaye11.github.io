@@ -1,0 +1,29 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:             
+tagline:          'Tim Kaye'
+description:      'Data Scientist and senior at Pomona College'
+url:              http://hyde.getpoole.com
+baseurl:          http://timkaye11.github.io/
+
+author:
+  name:           'tim kaye'
+  url:            http://www.linkedin.com/in/timkaye
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+gems:
+  - jemoji
+
+github:
+  repo:           https://github.com/timkaye11/timkaye11.github.io

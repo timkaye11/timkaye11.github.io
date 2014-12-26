@@ -1,0 +1,26 @@
+/*
+ * small fixes for the blog
+ * 
+ */
+
+
+/*
+ * stuff to change the color of the sidebar 
+ *
+ */
+h1.title1 a:after {
+	content: 'T. K. K';
+}
+h1.title1:hover a:after {
+	text-decoration: none;
+	font-size: 44px;
+	content: "Tim Kaye";
+}
+.mains {
+	transition: color 2s ease-out;
+}
+.mains:hover {
+	text-decoration: none;
+	color: black;
+}
+
