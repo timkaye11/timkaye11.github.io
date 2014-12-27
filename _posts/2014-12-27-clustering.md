@@ -36,4 +36,4 @@ theta	  <- sample(y, prob = pis, replace = TRUE)
 if we infuse the dirichlet process with the k-means algorithm, we obtain the DP-means algorithm, outlined in [this paper](http://www.cs.berkeley.edu/~jordan/papers/kulis-jordan-icml12.pdf) by jordan and kulis. in essence, this algorithm is parameterized by *α*, the concentration parameter, which controls how far apart each cluster should be. as alpha indirectly determines the number of clusters (if alpha is small, each observation could be it's own cluster, but if alpha is large, we would only have 1 or 2 clusters), we see that properly selecting the right alpha can be difficult. therefore it is clear that the problem of choosing the right alpha for the infinite mixture model is as difficult as choosing the correct *k* value for the k-means algorithm. to counteract this, we can use a gibbs sampler for the dirichlet process with hyper-priors on the alpha value. this will be the topic of my next blog post!
 
 
-an implementation of the algorithm outlined in the above paper can be found in this gist. 
+an implementation of the algorithm outlined in the above paper can be found in this gist. **more to come...**
