@@ -3,6 +3,8 @@ layout: post
 title: Clustering via Non-Parametric Bayes
 ---
 
+**unfinished..**
+
 ### Introduction
 
 clustering is a popular topic in statistics and machine learning, with various applications to many industries. otably, the [k-means](http://en.wikipedia.org/wiki/K-means_clustering) clustering algorithm is an effective clustering algorithm with a rather easy implementation. however, properly utilizing the k-means algorithm requires one to know the value of *k* (the number of clusters) beforehand, which is unknown in many cases. to move around this obstacle, there are various [bayesian](http://en.wikipedia.org/wiki/Bayes'_theorem) approaches to clustering that provide a sensible alternative. 
